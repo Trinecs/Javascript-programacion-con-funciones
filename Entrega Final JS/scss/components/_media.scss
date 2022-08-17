@@ -1,0 +1,56 @@
+/* MEDIA */
+@media (min-width: 400px) {
+    body {
+        font-size: 16px;
+    }
+    h2 {
+        padding: 20px;
+    }
+    .productos_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 25px;
+    }
+    h2 {
+        padding: 40px;
+    }
+    .contact_grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 10px;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sobre_nosotros p {
+        padding: 0px 50px
+    }
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .productos img {
+        width: 49%;
+    }
+    .productos_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    .btn_whatsapp {
+        right: 20px;
+        bottom: 20px;
+        width: 80px;
+        height: 80px;
+    }
+    footer h3 {
+        font-size: 30px;
+    }
+}

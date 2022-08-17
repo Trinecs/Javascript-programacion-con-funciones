@@ -1,0 +1,32 @@
+/* FOOTER */
+footer {
+    background-color: black;
+    text-align: center;
+    color: burlywood;
+    border-top: solid 3px burlywood;
+    margin-top: 15px;
+    padding: 5px;
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h3 {
+    padding: 10px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* BUTTON WHATSAPP */
+.btn_whatsapp {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,26 @@
+/* NAV */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(223, 167, 95);
+    grid-area: nav;
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        li {
+            &:hover {
+                background-color: rgb(221, 150, 57);
+                transform: scale(1.1);
+        } 
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: 800;
+                display: block;
+                padding: 15px;
+            }
+        }
+    }
+}

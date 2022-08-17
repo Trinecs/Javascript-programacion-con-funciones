@@ -1,0 +1,16 @@
+/* SOBRE NOSOTROS */
+.sobre_nosotros p {
+    text-align: center;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.sobre_nosotros_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+span {
+    color: red;
+    font-weight: bold;
+}

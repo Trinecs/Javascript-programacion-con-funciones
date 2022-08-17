@@ -1,0 +1,19 @@
+{
+  "name": "desafio-4-16-4-y-entrega-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trinecs/Sitio-Web-del-curso-Desarrollo-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trinecs/Sitio-Web-del-curso-Desarrollo-Web/issues"
+  },
+  "homepage": "https://github.com/Trinecs/Sitio-Web-del-curso-Desarrollo-Web#readme"
+}

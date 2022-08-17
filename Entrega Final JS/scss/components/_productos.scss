@@ -1,0 +1,27 @@
+/* PRODUCTOS */
+.productos_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.item_producto {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    transition: all 1.2s;
+}
+
+.item_producto:hover {
+    transform: scale(1.2);
+}
+
+.img_producto {
+    width: 200px;
+    height: 250px;
+}
+
+.productos img {
+    width: 100%;
+}
